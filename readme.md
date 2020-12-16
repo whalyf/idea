@@ -1,0 +1,1 @@
+Aplicação com páginas estáticas com deploy gratuito realizado na VERCEL
