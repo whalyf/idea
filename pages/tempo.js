@@ -1,5 +1,5 @@
 export default function Tempo(props){
-    console.logg('>Passando pelo Frontend;')
+    console.log('>Passando pelo Frontend;')
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString();
 
@@ -12,7 +12,7 @@ export default function Tempo(props){
 }
 
 export function getStaticProps(){
-    console.logg('>Passando pelo getStaticProps();')
+    console.log('>Passando pelo getStaticProps();')
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
 
